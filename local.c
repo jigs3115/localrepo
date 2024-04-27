@@ -1,13 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
 
     int n;
-    
+
     printf("hello world");
-    scanf("%d",&n);
+    scanf("%d", &n);
 
     printf("this is change in main");
+    printf("this is change in local");
 
     return 0;
 }
